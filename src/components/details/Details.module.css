@@ -1,0 +1,54 @@
+.Details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    width: 99vw;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+}
+.button {
+  font-size: 2em;
+}
+.apt {
+  background-color: #f49c66;
+  color: white;
+  margin: 0;
+  padding: 5%;
+}
+.h{
+  margin: 2%;
+}
+.p {
+  margin: 2%;
+}
+.doc {
+  background-color:#48b6be;
+  color: white;
+  margin: 0;
+  padding: 5%;
+}
+.figure {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2%;
+}
+.pic {
+  width: 30vw;
+  border-radius: 3px;
+}
+.figcaption {
+  margin: 2%;
+}
+.date {
+  margin: 0;
+  padding: 5%;
+  background-color: #f7f5f5;
+}
+
+@media only screen and (min-width: 1000px) {
+  .Details {
+
+  }
+}

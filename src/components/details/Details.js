@@ -1,28 +1,33 @@
 import React from 'react';
 import pic from '../../assets/docpic.jpg';
+import styles from './Details.module.css';
+import { FaHome } from 'react-icons/fa';
 
 function Details() {
   return (
-    <>
-      <h2>Appointment Details</h2>
-      <section>
-        <h3>Providence Hospital</h3>
-        <p>Suite 200</p>
-        <p>9205 SW Barnes Rd, Portland, OR 97225</p>
+    <section className={styles.Details}>
+    <button className={styles.button}><FaHome /></button>
+        <h2 className={styles.apt}>APPOINTMENT DETAILS</h2>
+      <section className={styles.section}>
+        <h3 className={styles.h}>Providence Hospital St. Vincent</h3>
+        <p className={styles.p}>9205 SW Barnes Rd.</p> 
+        <p className={styles.p}>Suite 200</p>
+        <p className={styles.p}>Portland, OR 97225</p>
       </section>
-      <section>
-        <figure>
-          <img src={pic} alt="doctor pic"/>
+      <section className={styles.section }>
+          <h3 className={styles.doc}>DOCTOR</h3>
+        <figure className={styles.figure}>
+          <img src={pic} alt="doctor pic" className={styles.pic}/>
+          <figcaption className={styles.figcaption}> Melissa S. Yamauchi, M.D.</figcaption>
         </figure>
-        <h3>My Doctor</h3>
-        <p> Melissa S. Yamauchi, M.D.</p>
       </section>
-      <section>
-        <p>April 5, 2019</p>
-        <p>5pm</p>
-        <p>Check-in: 4:45pm</p>
+      <section className={styles.section}>
+        <h3 className={styles.date}>DATE</h3>
+        <p className={styles.p}>April 5, 2019</p>
+        <p className={styles.p}>5pm</p>
+        <p className={styles.p}>Check-in: 4:45pm</p>
       </section>
-    </>
+    </section>
   )
 }
 export default Details;

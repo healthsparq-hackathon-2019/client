@@ -2,11 +2,12 @@ import React from 'react';
 import pic from '../../assets/docpic.jpg';
 import styles from './Details.module.css';
 import { FaHome } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 function Details() {
   return (
     <section className={styles.Details}>
-    <button className={styles.button}><FaHome /></button>
+    <Link to='/' className={styles.button}><FaHome /></Link>
         <h2 className={styles.apt}>APPOINTMENT DETAILS</h2>
       <section className={styles.section}>
         <h3 className={styles.h}>Providence Hospital St. Vincent</h3>

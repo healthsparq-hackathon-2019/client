@@ -6,9 +6,11 @@
     width: 99vw;
     font-family: 'Lato', sans-serif;
     text-align: center;
+    animation: fade-in 0.5s ease-in forwards;
 }
 .button {
   font-size: 2em;
+  color: black;
 }
 .apt {
   background-color: #f49c66;
@@ -51,4 +53,8 @@
   .Details {
 
   }
+}
+@keyframes fade-in {
+  from { opacity: 0;}
+  to {opacity: 1;}
 }

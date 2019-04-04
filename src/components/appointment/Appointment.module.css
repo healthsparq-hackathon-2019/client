@@ -17,8 +17,9 @@
     letter-spacing: 5px;
     color: white;
     font-weight: bold;
+    text-decoration: none;
+    text-align: center;
     transition: .2s ease-in-out;
-
 }
 
 .button:hover{

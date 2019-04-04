@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './Appointment.module.css';
+import { Link } from 'react-router-dom';
 
 export default function Appointment(){
     return(
@@ -13,8 +14,8 @@ export default function Appointment(){
                 
                 <div className={styles.rightColumn}>
                     <div className={styles.buttonsContainer}>
-                        <button className={styles.button}>DETAILS</button>
-                        <button className={styles.button}>TRANSPORT</button>
+                        <Link to='/details' className={styles.button}>DETAILS</Link>
+                        <Link tp='details' className={styles.button}>TRANSPORT</Link>
                     </div>
                 </div>
             </div>

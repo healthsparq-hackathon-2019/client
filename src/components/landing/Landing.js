@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './Landing.module.css';
 import { FaHandPointUp } from 'react-icons/fa';
+import Appointment from '../appointment/Appointment';
 
 export default function Landing() {
   return(
@@ -13,6 +14,7 @@ export default function Landing() {
             <h4 className={styles.h4}>Tap to start</h4>
             <FaHandPointUp className={styles.finger}/>
         </div>
+        <Appointment/>
     </div>
   )
 }

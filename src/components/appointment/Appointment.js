@@ -4,7 +4,8 @@ import { Link } from 'react-router-dom';
 
 export default function Appointment(){
     return(
-        <>
+        <> 
+            <h3 className={styles.title}>Check up</h3>
             <div className={styles.box}>
                 <div className={styles.leftColumn}>
                     <div className={styles.hospitalPictureContainer}>

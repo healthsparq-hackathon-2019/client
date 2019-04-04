@@ -38,12 +38,11 @@
     display: inline;
     top: 140px;
     right: 310px;
-    border: 2px black solid;
     border-radius: 2em;
     background-color: #ff8301;
     color: white;
     height: 20px;
-    padding: 1%;
+    padding: 2%;
 }
 
 .leftColumn {
@@ -68,4 +67,18 @@
     width:50%;
     background-color: white; 
     border: 3px solid #48b6be;
+}
+.title {
+    width: 20%;
+    margin: 0 auto 0 auto;
+    position: relative;
+    top: 35px;
+    right: 40px;
+    background-color: #48b6be;
+    color: white;
+    z-index: 1;
+    text-align: center;
+    font-size: 2em;
+    border-top-left-radius: 2em;
+    border-top-right-radius: 2em;
 }

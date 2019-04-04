@@ -8,11 +8,11 @@ function Details() {
     <section className={styles.Details}>
       <button className={styles.button}><FaHome /></button>
       <h2 className={styles.apt}>APPOINTMENT DETAILS</h2>
-      <h4 className={styles.h4}>
-        YOUR APPOINTMENT IS WITH
-      </h4>
       <section className={styles.main}>
         <section className={styles.section}>
+        <h4 className={styles.h4}>
+          YOUR APPOINTMENT IS WITH
+        </h4>
           <figure className={styles.figure}>
             <img src={pic} alt="doctor pic" className={styles.pic} />
             <figcaption className={styles.figcaption}> Melissa S. Yamauchi, M.D.</figcaption>

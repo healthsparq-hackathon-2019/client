@@ -1,0 +1,40 @@
+.box {
+    display: flex;
+    margin: auto;
+    margin-top: 5%;
+    width: 50%;
+    background-color: #48b6be;
+}
+
+.button {
+    margin: 4%;
+    display: block;
+}
+
+.buttonsContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 12%;
+}
+
+.leftColumn {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+
+.hospitalPicture {
+    padding: 0; 
+    margin: 0;
+    width :100%;
+}
+
+.hospitalPictureContainer {
+    width: 80%;
+    margin: 7%;
+}
+
+.rightColumn{
+    width:50%;
+}

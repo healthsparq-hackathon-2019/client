@@ -1,0 +1,58 @@
+.box {
+    display: flex;
+    margin: auto;
+    margin-top: 5%;
+    width: 50%;
+}
+
+.button {
+    margin: 4%;
+    width: 80%;
+    display: block;
+    padding: 3%;
+    background-color: #ff8301;
+    border: 2px solid #ff8301;
+    border-radius: 5%;
+    line-height: 1.6;
+    letter-spacing: 5px;
+    color: white;
+    font-weight: bold;
+    transition: .2s ease-in-out;
+
+}
+
+.button:hover{
+    background-color: white;
+    color: #ff8301;
+}
+
+.buttonsContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 12%;
+}
+
+.leftColumn {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    background-color: #48b6be;
+}
+
+.hospitalPicture {
+    padding: 0; 
+    margin: 0;
+    width :100%;
+}
+
+.hospitalPictureContainer {
+    width: 80%;
+    margin: 7%;
+}
+
+.rightColumn{
+    width:50%;
+    background-color: white; 
+    border: 3px solid #48b6be;
+}

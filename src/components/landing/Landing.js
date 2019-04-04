@@ -9,6 +9,9 @@ export default function Landing() {
             <h3 className={styles.h3}>HealthSparq Hackathon</h3>
         </header>
         <Appointment/>
+        <Appointment/>
+        <Appointment/>
+        <Appointment/>
     </div>
   )
 }

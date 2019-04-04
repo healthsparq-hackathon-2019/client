@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './Landing.module.css';
 import Appointment from '../appointment/Appointment';
+import Footer from '../footer/Footer';
 
 export default function Landing() {
   return(
@@ -12,6 +13,7 @@ export default function Landing() {
         <Appointment/>
         <Appointment/>
         <Appointment/>
+        <Footer/>
     </div>
   )
 }

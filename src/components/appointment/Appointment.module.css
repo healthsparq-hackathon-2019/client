@@ -1,7 +1,6 @@
 .box {
     display: flex;
-    margin: auto;
-    margin-top: 5%;
+    margin: 2.5% auto 2.5% auto;
     width: 50%;
     filter: drop-shadow(2px 2px 10px black)
 }

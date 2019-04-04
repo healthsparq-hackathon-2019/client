@@ -13,8 +13,8 @@ export default function Appointment(){
                 
                 <div className={styles.rightColumn}>
                     <div className={styles.buttonsContainer}>
-                        <button className={styles.button}>Details</button>
-                        <button className={styles.button}>Transport</button>
+                        <button className={styles.button}>DETAILS</button>
+                        <button className={styles.button}>TRANSPORT</button>
                     </div>
                 </div>
             </div>

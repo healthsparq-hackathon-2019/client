@@ -8,7 +8,23 @@
 
 .button {
     margin: 4%;
+    width: 80%;
     display: block;
+    padding: 3%;
+    background-color: #ff8301;
+    border: 2px solid #ff8301;
+    border-radius: 5%;
+    line-height: 1.6;
+    letter-spacing: 5px;
+    color: white;
+    font-weight: bold;
+    transition: .2s ease-in-out;
+
+}
+
+.button:hover{
+    background-color: white;
+    color: #ff8301;
 }
 
 .buttonsContainer {

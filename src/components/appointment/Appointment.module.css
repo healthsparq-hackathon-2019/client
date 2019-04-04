@@ -33,6 +33,18 @@
     align-items: center;
     padding: 12%;
 }
+.date {
+    position: relative;
+    display: inline;
+    top: 140px;
+    right: 310px;
+    border: 2px black solid;
+    border-radius: 2em;
+    background-color: #ff8301;
+    color: white;
+    height: 20px;
+    padding: 1%;
+}
 
 .leftColumn {
     display: flex;

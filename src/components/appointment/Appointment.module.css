@@ -37,7 +37,7 @@
 .date {
     position: relative;
     display: inline;
-    top: 200px;
+    bottom: 500%;
     right: 50%;
     border-radius: 2em;
     background-color: #ff8301;

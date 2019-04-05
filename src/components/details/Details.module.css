@@ -3,7 +3,6 @@
       flex-direction: column;
       justify-content: center;
       margin: auto;
-      width: 99vw;
       text-align: left;
   }
   .section {
@@ -17,16 +16,22 @@
     justify-content: center;
     align-items: center;
   }
-  .button {
-    margin: 0;
-    padding: 0;
-    display: flex;
-    align-items: center;
-    border-radius: 5px;
+  .backButton {
+    position: absolute;
+    left: 1em;
+    top: 1em;
+    padding: 1%;
+    border-radius: 50em;
+    color: white;
+    font-size: 200%;
     background-color: #f49c66;
-    height: 10vh;
-    width: 27vw;
-    padding: .2em;
+    border: 2px solid #f49c66;
+    transition: .2s ease-in-out;
+  }
+  .backButton:hover {
+    filter: drop-shadow(0 0 1em white);
+    background: none;
+    color: #f49c66;
   }
   .visit{
     text-align: center;

@@ -1,25 +1,32 @@
-import React from 'react';
+import React, { PureComponent } from 'react';
 import styles from './Appointment.module.css';
 import { Link } from 'react-router-dom';
+import PropTypes from 'prop-types';
 
-export default function Appointment(){
-    return(
-        <> 
-            <h3 className={styles.title}>Check up</h3>
-            <div className={styles.box}>
-                <div className={styles.leftColumn}>
-                    <div className={styles.hospitalPictureContainer}>
-                        <img className={styles.hospitalPicture} src='http://media.bizj.us/view/img/6038891/maintower-newfacade-rendering*1200xx732-412-0-69.jpg' alt='St. Vincent Hospital'/>
+export default class Appointment extends PureComponent {
+    static propTypes = {
+        appointment: PropTypes.object.isRequired
+    }
+    render() {
+        const { appointment } = this.props;
+        return (
+            <> 
+                <h3 className={styles.title}>{appointment.title}</h3>
+                <div className={styles.box}>
+                    <div className={styles.leftColumn}>
+                        <div className={styles.hospitalPictureContainer}>
+                            <img className={styles.hospitalPicture} src={appointment.img} alt='St. Vincent Hospital'/>
+                        </div>
                     </div>
-                </div>
-                <div className={styles.rightColumn}>
-                    <div className={styles.buttonsContainer}>
-                        <Link to='/details' className={styles.button}>DETAILS</Link>
-                        <Link tp='details' className={styles.button}>TRANSPORT</Link>
+                    <div className={styles.rightColumn}>
+                        <div className={styles.buttonsContainer}>
+                            <Link to='/details' className={styles.button}>DETAILS</Link>
+                            <a href="https://dazzling-heisenberg-414dd5.netlify.com/" className={styles.button}>TRANSPORT</a>
+                        </div>
                     </div>
+                   <h3 className={styles.date}>{appointment.date}</h3>
                 </div>
-               <h3 className={styles.date}>Tomorrow</h3>
-            </div>
-        </>
-    )
+            </>
+        )
+    }
 }

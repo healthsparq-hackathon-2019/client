@@ -7,7 +7,7 @@
 
 .button {
     margin: 4%;
-    width: 80%;
+    width: 100%;
     display: block;
     padding: 3%;
     background-color: #ff8301;
@@ -36,8 +36,8 @@
 .date {
     position: relative;
     display: inline;
-    top: 140px;
-    right: 310px;
+    top: 200px;
+    right: 50%;
     border-radius: 2em;
     background-color: #ff8301;
     color: white;
@@ -64,6 +64,9 @@
 }
 
 .rightColumn{
+    display: flex;
+    align-items: center;
+
     width:50%;
     background-color: white; 
     border: 3px solid #48b6be;

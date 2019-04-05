@@ -7,6 +7,17 @@
   }
   .section {
     margin: 0 3% 0 3%;
+    padding: 1%;
+    background-color: whitesmoke;
+    border-radius: 10px;
+  }
+  .sectionReminders {
+    position: relative;
+    top: 150px;
+    margin: 1%;
+    padding: 1em;
+    width: 80%;
+    height: 50%;
     background-color: whitesmoke;
     border-radius: 10px;
   }
@@ -33,6 +44,13 @@
     background: none;
     color: #f49c66;
   }
+  .button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 200%;
+    background: none;
+  }
   .visit{
     text-align: center;
   }
@@ -41,6 +59,8 @@
   }
   .top {
     display: flex;
+    justify-content: space-around;
+    padding: 1%;
     margin: 0 3% 0 3%;
     background-color: whitesmoke;
     border-radius: 10px;
@@ -68,6 +88,7 @@
     font-weight: 800;
   }
   .h4 {
+    text-align: center;
     margin-bottom: 2%;
   }
   .hospital{
@@ -125,6 +146,15 @@
   }
   .h4 {
     margin: .5em .5em .5em 0;
+  }
+  .reminders button {
+    margin: .2em;
+    background-color: rgb(255, 131, 1);
+    border-radius: 5px;
+    width: 50vw;
+    padding: 1%;
+    color: white;
+    font-weight: bold;
   }
   .pic {
     height: 30vh;

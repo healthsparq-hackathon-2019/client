@@ -21,7 +21,7 @@ export default class Appointment extends PureComponent {
                     <div className={styles.rightColumn}>
                         <div className={styles.buttonsContainer}>
                             <Link to='/details' className={styles.button}>DETAILS</Link>
-                            <Link tp='details' className={styles.button}>TRANSPORT</Link>
+                            <a href="https://dazzling-heisenberg-414dd5.netlify.com/" className={styles.button}>TRANSPORT</a>
                         </div>
                     </div>
                    <h3 className={styles.date}>{appointment.date}</h3>

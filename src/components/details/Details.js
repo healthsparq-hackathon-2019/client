@@ -2,6 +2,9 @@ import React from 'react';
 import pic from '../../assets/docpic.jpg';
 import styles from './Details.module.css';
 import { FaCalendarPlus, FaTimes } from 'react-icons/fa';
+import { FaHome } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
+import Footer from '../footer/Footer';
 
 function Details() {
   return (
@@ -10,6 +13,7 @@ function Details() {
       <section className={styles.visit}>
         <h3>OFFICE VISIT</h3>
         <p className={styles.p}>Friday, April 5</p>
+    <Link to='/' className={styles.button}><FaHome /></Link>
       </section>
       <section className={styles.top}>
         <div className={styles.div}>
@@ -44,6 +48,7 @@ function Details() {
           </section>
         </section>
       </section>
+      <Footer/>
     </section>
   )
 }

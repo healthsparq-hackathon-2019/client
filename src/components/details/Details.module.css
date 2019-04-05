@@ -109,7 +109,6 @@
     border-radius: 5px;
     width: 50vw;
   }
-
 @media only screen and (min-width: 1000px) {
   .main {
     display: flex;
@@ -131,4 +130,8 @@
   .reminders {
     display: block;
   }
+}
+@keyframes fade-in {
+  from { opacity: 0;}
+  to {opacity: 1;}
 }

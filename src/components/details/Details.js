@@ -21,8 +21,8 @@ function Details() {
           <p className={styles.start}>Appointment starts at 5pm</p>
         </div>
         <div className={styles.aptButton}>
-          <button className={styles.button}>add to my calendar<FaCalendarPlus /></button>
-          <button className={styles.button}>cancel apt<FaTimes /></button>
+          <button className={styles.button}><FaCalendarPlus /></button>
+          <button className={styles.button}><FaTimes /></button>
         </div>
       </section>
       <section className={styles.main}>
@@ -40,7 +40,7 @@ function Details() {
           <p className={styles.p}>Suite 200</p>
           <p className={styles.p}>Portland, OR 97225</p>
         </section>
-        <section className={styles.section}>
+        <section className={styles.sectionReminders}>
           <h4 className={styles.h4}>SET REMINDERS</h4>
           <section className={styles.reminders}>
           <button>PHONE</button>
